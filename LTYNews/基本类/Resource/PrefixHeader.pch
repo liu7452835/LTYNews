@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  appLaunchScreenAddAd
+//
+//  Created by 刘天宇 on 2018/10/30.
+//  Copyright © 2018 lty. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <AFNetworking.h>       //Github排名第一的第三方网络请求类库，封装了系统的NSURLSession+NSOperation
+
+#import <UIKit+AFNetworking.h>      //对UIKit类添加类拓展，让诸如UIButton, UIImageView等拥有了网络加载图片的功能
+
+#import <MJExtension.h>  //优秀的Json解析类库
+
+#import <Masonry.h>  //超好用的链式书写AutoLayout的第三方类库
+
+#import <MJRefresh.h>  //优秀的上拉刷新和下拉刷新效果
+
+#import "WMPageController.h" //滑动菜单栏
+
+#import "Header.h"
+
+#endif /* PrefixHeader_pch */
